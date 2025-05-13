@@ -7,6 +7,8 @@ Bst* bst_create();
 
 void bst_insert(Bst* bst, int key);
 
+void bst_print_height(Bst* bst);
+
 void bst_destroy(Bst* bst);
 
 #endif
